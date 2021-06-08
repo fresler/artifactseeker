@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C0941D9266FEB0D00446877 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0941D8266FEB0D00446877 /* AppDelegate.swift */; };
+		1C0941DB266FEB0D00446877 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0941DA266FEB0D00446877 /* GameViewController.swift */; };
+		1C0941DE266FEB0D00446877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941DC266FEB0D00446877 /* Main.storyboard */; };
+		1C0941E1266FEB0D00446877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941DF266FEB0D00446877 /* LaunchScreen.storyboard */; };
+		1C0941EA266FEB0D00446877 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0941E9266FEB0D00446877 /* AppDelegate.swift */; };
+		1C0941EC266FEB0D00446877 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0941EB266FEB0D00446877 /* GameViewController.swift */; };
+		1C0941EF266FEB0D00446877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941ED266FEB0D00446877 /* Main.storyboard */; };
+		1C0941F2266FEB0D00446877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941F0266FEB0D00446877 /* LaunchScreen.storyboard */; };
+		1C0941FB266FEB0D00446877 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0941FA266FEB0D00446877 /* AppDelegate.swift */; };
+		1C0941FD266FEB0D00446877 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0941FC266FEB0D00446877 /* GameViewController.swift */; };
+		1C094200266FEB0D00446877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941FE266FEB0D00446877 /* Main.storyboard */; };
+		1C094203266FEB0D00446877 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941CD266FEB0A00446877 /* Actions.sks */; };
+		1C094204266FEB0D00446877 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941CD266FEB0A00446877 /* Actions.sks */; };
+		1C094205266FEB0D00446877 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941CD266FEB0A00446877 /* Actions.sks */; };
+		1C094206266FEB0D00446877 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941CE266FEB0A00446877 /* GameScene.sks */; };
+		1C094207266FEB0D00446877 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941CE266FEB0A00446877 /* GameScene.sks */; };
+		1C094208266FEB0D00446877 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941CE266FEB0A00446877 /* GameScene.sks */; };
+		1C094209266FEB0D00446877 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0941CF266FEB0A00446877 /* GameScene.swift */; };
+		1C09420A266FEB0D00446877 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0941CF266FEB0A00446877 /* GameScene.swift */; };
+		1C09420B266FEB0D00446877 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0941CF266FEB0A00446877 /* GameScene.swift */; };
+		1C09420C266FEB0D00446877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941D0266FEB0D00446877 /* Assets.xcassets */; };
+		1C09420D266FEB0D00446877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941D0266FEB0D00446877 /* Assets.xcassets */; };
+		1C09420E266FEB0D00446877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941D0266FEB0D00446877 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C0941CD266FEB0A00446877 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		1C0941CE266FEB0A00446877 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1C0941CF266FEB0A00446877 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		1C0941D0266FEB0D00446877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C0941D5266FEB0D00446877 /* Artifact Seeker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Artifact Seeker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C0941D8266FEB0D00446877 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C0941DA266FEB0D00446877 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1C0941DD266FEB0D00446877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C0941E0266FEB0D00446877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C0941E2266FEB0D00446877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C0941E7266FEB0D00446877 /* Artifact Seeker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Artifact Seeker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C0941E9266FEB0D00446877 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C0941EB266FEB0D00446877 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1C0941EE266FEB0D00446877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C0941F1266FEB0D00446877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C0941F3266FEB0D00446877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C0941F8266FEB0D00446877 /* Artifact Seeker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Artifact Seeker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C0941FA266FEB0D00446877 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C0941FC266FEB0D00446877 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1C0941FF266FEB0D00446877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C094201266FEB0D00446877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C094202266FEB0D00446877 /* Artifact_Seeker_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Artifact_Seeker_macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C0941D2266FEB0D00446877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0941E4266FEB0D00446877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0941F5266FEB0D00446877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C0941C7266FEB0A00446877 = {
+			isa = PBXGroup;
+			children = (
+				1C0941CC266FEB0A00446877 /* Artifact Seeker Shared */,
+				1C0941D7266FEB0D00446877 /* Artifact Seeker iOS */,
+				1C0941E8266FEB0D00446877 /* Artifact Seeker tvOS */,
+				1C0941F9266FEB0D00446877 /* Artifact Seeker macOS */,
+				1C0941D6266FEB0D00446877 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C0941CC266FEB0A00446877 /* Artifact Seeker Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1C0941CD266FEB0A00446877 /* Actions.sks */,
+				1C0941CE266FEB0A00446877 /* GameScene.sks */,
+				1C0941CF266FEB0A00446877 /* GameScene.swift */,
+				1C0941D0266FEB0D00446877 /* Assets.xcassets */,
+			);
+			path = "Artifact Seeker Shared";
+			sourceTree = "<group>";
+		};
+		1C0941D6266FEB0D00446877 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C0941D5266FEB0D00446877 /* Artifact Seeker.app */,
+				1C0941E7266FEB0D00446877 /* Artifact Seeker.app */,
+				1C0941F8266FEB0D00446877 /* Artifact Seeker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C0941D7266FEB0D00446877 /* Artifact Seeker iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1C0941D8266FEB0D00446877 /* AppDelegate.swift */,
+				1C0941DA266FEB0D00446877 /* GameViewController.swift */,
+				1C0941DC266FEB0D00446877 /* Main.storyboard */,
+				1C0941DF266FEB0D00446877 /* LaunchScreen.storyboard */,
+				1C0941E2266FEB0D00446877 /* Info.plist */,
+			);
+			path = "Artifact Seeker iOS";
+			sourceTree = "<group>";
+		};
+		1C0941E8266FEB0D00446877 /* Artifact Seeker tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				1C0941E9266FEB0D00446877 /* AppDelegate.swift */,
+				1C0941EB266FEB0D00446877 /* GameViewController.swift */,
+				1C0941ED266FEB0D00446877 /* Main.storyboard */,
+				1C0941F0266FEB0D00446877 /* LaunchScreen.storyboard */,
+				1C0941F3266FEB0D00446877 /* Info.plist */,
+			);
+			path = "Artifact Seeker tvOS";
+			sourceTree = "<group>";
+		};
+		1C0941F9266FEB0D00446877 /* Artifact Seeker macOS */ = {
+			isa = PBXGroup;
+			children = (
+				1C0941FA266FEB0D00446877 /* AppDelegate.swift */,
+				1C0941FC266FEB0D00446877 /* GameViewController.swift */,
+				1C0941FE266FEB0D00446877 /* Main.storyboard */,
+				1C094201266FEB0D00446877 /* Info.plist */,
+				1C094202266FEB0D00446877 /* Artifact_Seeker_macOS.entitlements */,
+			);
+			path = "Artifact Seeker macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C0941D4266FEB0D00446877 /* Artifact Seeker iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C094211266FEB0D00446877 /* Build configuration list for PBXNativeTarget "Artifact Seeker iOS" */;
+			buildPhases = (
+				1C0941D1266FEB0D00446877 /* Sources */,
+				1C0941D2266FEB0D00446877 /* Frameworks */,
+				1C0941D3266FEB0D00446877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Artifact Seeker iOS";
+			productName = "Artifact Seeker iOS";
+			productReference = 1C0941D5266FEB0D00446877 /* Artifact Seeker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C0941E6266FEB0D00446877 /* Artifact Seeker tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C094214266FEB0D00446877 /* Build configuration list for PBXNativeTarget "Artifact Seeker tvOS" */;
+			buildPhases = (
+				1C0941E3266FEB0D00446877 /* Sources */,
+				1C0941E4266FEB0D00446877 /* Frameworks */,
+				1C0941E5266FEB0D00446877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Artifact Seeker tvOS";
+			productName = "Artifact Seeker tvOS";
+			productReference = 1C0941E7266FEB0D00446877 /* Artifact Seeker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C0941F7266FEB0D00446877 /* Artifact Seeker macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C094217266FEB0D00446877 /* Build configuration list for PBXNativeTarget "Artifact Seeker macOS" */;
+			buildPhases = (
+				1C0941F4266FEB0D00446877 /* Sources */,
+				1C0941F5266FEB0D00446877 /* Frameworks */,
+				1C0941F6266FEB0D00446877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Artifact Seeker macOS";
+			productName = "Artifact Seeker macOS";
+			productReference = 1C0941F8266FEB0D00446877 /* Artifact Seeker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C0941C8266FEB0A00446877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1C0941D4266FEB0D00446877 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					1C0941E6266FEB0D00446877 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					1C0941F7266FEB0D00446877 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 1C0941CB266FEB0A00446877 /* Build configuration list for PBXProject "Artifact Seeker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C0941C7266FEB0A00446877;
+			productRefGroup = 1C0941D6266FEB0D00446877 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C0941D4266FEB0D00446877 /* Artifact Seeker iOS */,
+				1C0941E6266FEB0D00446877 /* Artifact Seeker tvOS */,
+				1C0941F7266FEB0D00446877 /* Artifact Seeker macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C0941D3266FEB0D00446877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C094206266FEB0D00446877 /* GameScene.sks in Resources */,
+				1C0941DE266FEB0D00446877 /* Main.storyboard in Resources */,
+				1C094203266FEB0D00446877 /* Actions.sks in Resources */,
+				1C0941E1266FEB0D00446877 /* LaunchScreen.storyboard in Resources */,
+				1C09420C266FEB0D00446877 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0941E5266FEB0D00446877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C094207266FEB0D00446877 /* GameScene.sks in Resources */,
+				1C0941EF266FEB0D00446877 /* Main.storyboard in Resources */,
+				1C094204266FEB0D00446877 /* Actions.sks in Resources */,
+				1C0941F2266FEB0D00446877 /* LaunchScreen.storyboard in Resources */,
+				1C09420D266FEB0D00446877 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0941F6266FEB0D00446877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C094200266FEB0D00446877 /* Main.storyboard in Resources */,
+				1C094208266FEB0D00446877 /* GameScene.sks in Resources */,
+				1C09420E266FEB0D00446877 /* Assets.xcassets in Resources */,
+				1C094205266FEB0D00446877 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C0941D1266FEB0D00446877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C094209266FEB0D00446877 /* GameScene.swift in Sources */,
+				1C0941DB266FEB0D00446877 /* GameViewController.swift in Sources */,
+				1C0941D9266FEB0D00446877 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0941E3266FEB0D00446877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C09420A266FEB0D00446877 /* GameScene.swift in Sources */,
+				1C0941EC266FEB0D00446877 /* GameViewController.swift in Sources */,
+				1C0941EA266FEB0D00446877 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0941F4266FEB0D00446877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C09420B266FEB0D00446877 /* GameScene.swift in Sources */,
+				1C0941FD266FEB0D00446877 /* GameViewController.swift in Sources */,
+				1C0941FB266FEB0D00446877 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C0941DC266FEB0D00446877 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C0941DD266FEB0D00446877 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C0941DF266FEB0D00446877 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C0941E0266FEB0D00446877 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1C0941ED266FEB0D00446877 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C0941EE266FEB0D00446877 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C0941F0266FEB0D00446877 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C0941F1266FEB0D00446877 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1C0941FE266FEB0D00446877 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C0941FF266FEB0D00446877 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C09420F266FEB0D00446877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C094210266FEB0D00446877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1C094212266FEB0D00446877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK56HM8TVY;
+				INFOPLIST_FILE = "Artifact Seeker iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maccrafters.Artifact-Seeker";
+				PRODUCT_NAME = "Artifact Seeker";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C094213266FEB0D00446877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK56HM8TVY;
+				INFOPLIST_FILE = "Artifact Seeker iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maccrafters.Artifact-Seeker";
+				PRODUCT_NAME = "Artifact Seeker";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C094215266FEB0D00446877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK56HM8TVY;
+				INFOPLIST_FILE = "Artifact Seeker tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maccrafters.Artifact-Seeker";
+				PRODUCT_NAME = "Artifact Seeker";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.5;
+			};
+			name = Debug;
+		};
+		1C094216266FEB0D00446877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK56HM8TVY;
+				INFOPLIST_FILE = "Artifact Seeker tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maccrafters.Artifact-Seeker";
+				PRODUCT_NAME = "Artifact Seeker";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.5;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C094218266FEB0D00446877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Artifact Seeker macOS/Artifact_Seeker_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RK56HM8TVY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Artifact Seeker macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maccrafters.Artifact-Seeker";
+				PRODUCT_NAME = "Artifact Seeker";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1C094219266FEB0D00446877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Artifact Seeker macOS/Artifact_Seeker_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = RK56HM8TVY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Artifact Seeker macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maccrafters.Artifact-Seeker";
+				PRODUCT_NAME = "Artifact Seeker";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C0941CB266FEB0A00446877 /* Build configuration list for PBXProject "Artifact Seeker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C09420F266FEB0D00446877 /* Debug */,
+				1C094210266FEB0D00446877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C094211266FEB0D00446877 /* Build configuration list for PBXNativeTarget "Artifact Seeker iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C094212266FEB0D00446877 /* Debug */,
+				1C094213266FEB0D00446877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C094214266FEB0D00446877 /* Build configuration list for PBXNativeTarget "Artifact Seeker tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C094215266FEB0D00446877 /* Debug */,
+				1C094216266FEB0D00446877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C094217266FEB0D00446877 /* Build configuration list for PBXNativeTarget "Artifact Seeker macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C094218266FEB0D00446877 /* Debug */,
+				1C094219266FEB0D00446877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C0941C8266FEB0A00446877 /* Project object */;
+}
