@@ -17,6 +17,7 @@ class Scene:GlideScene {
             collisionTileMapNode: tileMaps.collisionTileMap,
             zPositionContainers: []
         )
+        shouldPauseWhenAppIsInBackground = false
     }
     
     override func setupScene() {
