@@ -3,20 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1C0941D9266FEB0D00446877 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0941D8266FEB0D00446877 /* AppDelegate.swift */; };
-		1C0941DB266FEB0D00446877 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0941DA266FEB0D00446877 /* GameViewController.swift */; };
 		1C0941DE266FEB0D00446877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941DC266FEB0D00446877 /* Main.storyboard */; };
 		1C0941E1266FEB0D00446877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941DF266FEB0D00446877 /* LaunchScreen.storyboard */; };
 		1C0941EA266FEB0D00446877 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0941E9266FEB0D00446877 /* AppDelegate.swift */; };
-		1C0941EC266FEB0D00446877 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0941EB266FEB0D00446877 /* GameViewController.swift */; };
 		1C0941EF266FEB0D00446877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941ED266FEB0D00446877 /* Main.storyboard */; };
 		1C0941F2266FEB0D00446877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941F0266FEB0D00446877 /* LaunchScreen.storyboard */; };
 		1C0941FB266FEB0D00446877 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0941FA266FEB0D00446877 /* AppDelegate.swift */; };
-		1C0941FD266FEB0D00446877 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0941FC266FEB0D00446877 /* GameViewController.swift */; };
 		1C094200266FEB0D00446877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941FE266FEB0D00446877 /* Main.storyboard */; };
 		1C094203266FEB0D00446877 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941CD266FEB0A00446877 /* Actions.sks */; };
 		1C094204266FEB0D00446877 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941CD266FEB0A00446877 /* Actions.sks */; };
@@ -24,37 +21,100 @@
 		1C094206266FEB0D00446877 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941CE266FEB0A00446877 /* GameScene.sks */; };
 		1C094207266FEB0D00446877 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941CE266FEB0A00446877 /* GameScene.sks */; };
 		1C094208266FEB0D00446877 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941CE266FEB0A00446877 /* GameScene.sks */; };
-		1C094209266FEB0D00446877 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0941CF266FEB0A00446877 /* GameScene.swift */; };
-		1C09420A266FEB0D00446877 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0941CF266FEB0A00446877 /* GameScene.swift */; };
-		1C09420B266FEB0D00446877 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0941CF266FEB0A00446877 /* GameScene.swift */; };
 		1C09420C266FEB0D00446877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941D0266FEB0D00446877 /* Assets.xcassets */; };
 		1C09420D266FEB0D00446877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941D0266FEB0D00446877 /* Assets.xcassets */; };
 		1C09420E266FEB0D00446877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0941D0266FEB0D00446877 /* Assets.xcassets */; };
+		1C09421C266FEB6B00446877 /* GlideEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 1C09421B266FEB6B00446877 /* GlideEngine */; };
+		1C09422A266FEDA300446877 /* GlideEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 1C094229266FEDA300446877 /* GlideEngine */; };
+		1C09422C266FEDAC00446877 /* GlideEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 1C09422B266FEDAC00446877 /* GlideEngine */; };
+		1C094243266FEF9C00446877 /* GlideColliderTileSet.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C09422F266FEF9C00446877 /* GlideColliderTileSet.json */; };
+		1C094244266FEF9C00446877 /* slope_11_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C094231266FEF9C00446877 /* slope_11_8.png */; };
+		1C094245266FEF9C00446877 /* slope_8_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C094232266FEF9C00446877 /* slope_8_11.png */; };
+		1C094246266FEF9C00446877 /* slope_8_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C094233266FEF9C00446877 /* slope_8_15.png */; };
+		1C094247266FEF9C00446877 /* jump_wall_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C094234266FEF9C00446877 /* jump_wall_right.png */; };
+		1C094248266FEF9C00446877 /* slope_15_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C094235266FEF9C00446877 /* slope_15_12.png */; };
+		1C094249266FEF9C00446877 /* slope_15_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C094236266FEF9C00446877 /* slope_15_8.png */; };
+		1C09424A266FEF9C00446877 /* jump_wall_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C094237266FEF9C00446877 /* jump_wall_left.png */; };
+		1C09424B266FEF9C00446877 /* slope_0_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C094238266FEF9C00446877 /* slope_0_15.png */; };
+		1C09424C266FEF9C00446877 /* oneway.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C094239266FEF9C00446877 /* oneway.png */; };
+		1C09424D266FEF9C00446877 /* slope_7_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C09423A266FEF9C00446877 /* slope_7_0.png */; };
+		1C09424E266FEF9C00446877 /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C09423B266FEF9C00446877 /* ground.png */; };
+		1C09424F266FEF9C00446877 /* slope_7_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C09423C266FEF9C00446877 /* slope_7_4.png */; };
+		1C094250266FEF9C00446877 /* slope_3_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C09423D266FEF9C00446877 /* slope_3_0.png */; };
+		1C094251266FEF9C00446877 /* slope_0_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C09423E266FEF9C00446877 /* slope_0_7.png */; };
+		1C094252266FEF9C00446877 /* slope_12_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C09423F266FEF9C00446877 /* slope_12_15.png */; };
+		1C094253266FEF9C00446877 /* slope_4_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C094240266FEF9C00446877 /* slope_4_7.png */; };
+		1C094254266FEF9C00446877 /* slope_0_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C094241266FEF9C00446877 /* slope_0_3.png */; };
+		1C094255266FEF9C00446877 /* slope_15_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C094242266FEF9C00446877 /* slope_15_0.png */; };
+		1C094257266FF21600446877 /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C094256266FF21600446877 /* SharedAssets.xcassets */; };
+		1C094258266FF21600446877 /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C094256266FF21600446877 /* SharedAssets.xcassets */; };
+		1C094259266FF21600446877 /* SharedAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C094256266FF21600446877 /* SharedAssets.xcassets */; };
+		1C09425B266FF5D900446877 /* Level 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C09425A266FF5D900446877 /* Level 1.json */; };
+		1C09425C266FF5D900446877 /* Level 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C09425A266FF5D900446877 /* Level 1.json */; };
+		1C09425D266FF5D900446877 /* Level 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C09425A266FF5D900446877 /* Level 1.json */; };
+		1C09425F266FF5F100446877 /* Blue.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C09425E266FF5F100446877 /* Blue.json */; };
+		1C094260266FF5F100446877 /* Blue.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C09425E266FF5F100446877 /* Blue.json */; };
+		1C094261266FF5F100446877 /* Blue.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C09425E266FF5F100446877 /* Blue.json */; };
+		1C094263266FF6EB00446877 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C094262266FF6EB00446877 /* Scene.swift */; };
+		1C094264266FF6EB00446877 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C094262266FF6EB00446877 /* Scene.swift */; };
+		1C094265266FF6EB00446877 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C094262266FF6EB00446877 /* Scene.swift */; };
+		1C0942A0266FFCE400446877 /* Decorations.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1C09429F266FFCE400446877 /* Decorations.atlas */; };
+		1C0942A1266FFCE400446877 /* Decorations.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1C09429F266FFCE400446877 /* Decorations.atlas */; };
+		1C0942A2266FFCE400446877 /* Decorations.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1C09429F266FFCE400446877 /* Decorations.atlas */; };
+		1C0942A4266FFD9C00446877 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0942A3266FFD9C00446877 /* GameViewController.swift */; };
+		1C0942A5266FFD9C00446877 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0942A3266FFD9C00446877 /* GameViewController.swift */; };
+		1C0942A6266FFD9C00446877 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0942A3266FFD9C00446877 /* GameViewController.swift */; };
+		1C0942A7266FFE9500446877 /* GlideColliderTileSet.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C09422F266FEF9C00446877 /* GlideColliderTileSet.json */; };
+		1C0942A92670037A00446877 /* CharacterEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0942A82670037A00446877 /* CharacterEntity.swift */; };
+		1C0942AA2670037A00446877 /* CharacterEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0942A82670037A00446877 /* CharacterEntity.swift */; };
+		1C0942AB2670037A00446877 /* CharacterEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0942A82670037A00446877 /* CharacterEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C0941CD266FEB0A00446877 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		1C0941CE266FEB0A00446877 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		1C0941CF266FEB0A00446877 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		1C0941D0266FEB0D00446877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C0941D5266FEB0D00446877 /* Artifact Seeker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Artifact Seeker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C0941D8266FEB0D00446877 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1C0941DA266FEB0D00446877 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1C0941DD266FEB0D00446877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C0941E0266FEB0D00446877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C0941E2266FEB0D00446877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C0941E7266FEB0D00446877 /* Artifact Seeker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Artifact Seeker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C0941E9266FEB0D00446877 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1C0941EB266FEB0D00446877 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1C0941EE266FEB0D00446877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C0941F1266FEB0D00446877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C0941F3266FEB0D00446877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C0941F8266FEB0D00446877 /* Artifact Seeker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Artifact Seeker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C0941FA266FEB0D00446877 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1C0941FC266FEB0D00446877 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1C0941FF266FEB0D00446877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C094201266FEB0D00446877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C094202266FEB0D00446877 /* Artifact_Seeker_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Artifact_Seeker_macOS.entitlements; sourceTree = "<group>"; };
+		1C09422F266FEF9C00446877 /* GlideColliderTileSet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GlideColliderTileSet.json; sourceTree = "<group>"; };
+		1C094231266FEF9C00446877 /* slope_11_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slope_11_8.png; sourceTree = "<group>"; };
+		1C094232266FEF9C00446877 /* slope_8_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slope_8_11.png; sourceTree = "<group>"; };
+		1C094233266FEF9C00446877 /* slope_8_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slope_8_15.png; sourceTree = "<group>"; };
+		1C094234266FEF9C00446877 /* jump_wall_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jump_wall_right.png; sourceTree = "<group>"; };
+		1C094235266FEF9C00446877 /* slope_15_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slope_15_12.png; sourceTree = "<group>"; };
+		1C094236266FEF9C00446877 /* slope_15_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slope_15_8.png; sourceTree = "<group>"; };
+		1C094237266FEF9C00446877 /* jump_wall_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jump_wall_left.png; sourceTree = "<group>"; };
+		1C094238266FEF9C00446877 /* slope_0_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slope_0_15.png; sourceTree = "<group>"; };
+		1C094239266FEF9C00446877 /* oneway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oneway.png; sourceTree = "<group>"; };
+		1C09423A266FEF9C00446877 /* slope_7_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slope_7_0.png; sourceTree = "<group>"; };
+		1C09423B266FEF9C00446877 /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground.png; sourceTree = "<group>"; };
+		1C09423C266FEF9C00446877 /* slope_7_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slope_7_4.png; sourceTree = "<group>"; };
+		1C09423D266FEF9C00446877 /* slope_3_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slope_3_0.png; sourceTree = "<group>"; };
+		1C09423E266FEF9C00446877 /* slope_0_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slope_0_7.png; sourceTree = "<group>"; };
+		1C09423F266FEF9C00446877 /* slope_12_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slope_12_15.png; sourceTree = "<group>"; };
+		1C094240266FEF9C00446877 /* slope_4_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slope_4_7.png; sourceTree = "<group>"; };
+		1C094241266FEF9C00446877 /* slope_0_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slope_0_3.png; sourceTree = "<group>"; };
+		1C094242266FEF9C00446877 /* slope_15_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slope_15_0.png; sourceTree = "<group>"; };
+		1C094256266FF21600446877 /* SharedAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SharedAssets.xcassets; sourceTree = "<group>"; };
+		1C09425A266FF5D900446877 /* Level 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level 1.json"; sourceTree = "<group>"; };
+		1C09425E266FF5F100446877 /* Blue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Blue.json; sourceTree = "<group>"; };
+		1C094262266FF6EB00446877 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		1C09429F266FFCE400446877 /* Decorations.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Decorations.atlas; sourceTree = "<group>"; };
+		1C0942A3266FFD9C00446877 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1C0942A82670037A00446877 /* CharacterEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C09421C266FEB6B00446877 /* GlideEngine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C09422A266FEDA300446877 /* GlideEngine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C09422C266FEDAC00446877 /* GlideEngine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,16 +153,22 @@
 				1C0941E8266FEB0D00446877 /* Artifact Seeker tvOS */,
 				1C0941F9266FEB0D00446877 /* Artifact Seeker macOS */,
 				1C0941D6266FEB0D00446877 /* Products */,
+				1C094228266FEDA300446877 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		1C0941CC266FEB0A00446877 /* Artifact Seeker Shared */ = {
 			isa = PBXGroup;
 			children = (
+				1C6F91B626718F17009ADF17 /* Entities */,
+				1C09429F266FFCE400446877 /* Decorations.atlas */,
+				1C09422D266FEF6100446877 /* Levels */,
 				1C0941CD266FEB0A00446877 /* Actions.sks */,
 				1C0941CE266FEB0A00446877 /* GameScene.sks */,
-				1C0941CF266FEB0A00446877 /* GameScene.swift */,
+				1C094262266FF6EB00446877 /* Scene.swift */,
 				1C0941D0266FEB0D00446877 /* Assets.xcassets */,
+				1C094256266FF21600446877 /* SharedAssets.xcassets */,
+				1C0942A3266FFD9C00446877 /* GameViewController.swift */,
 			);
 			path = "Artifact Seeker Shared";
 			sourceTree = "<group>";
@@ -118,7 +187,6 @@
 			isa = PBXGroup;
 			children = (
 				1C0941D8266FEB0D00446877 /* AppDelegate.swift */,
-				1C0941DA266FEB0D00446877 /* GameViewController.swift */,
 				1C0941DC266FEB0D00446877 /* Main.storyboard */,
 				1C0941DF266FEB0D00446877 /* LaunchScreen.storyboard */,
 				1C0941E2266FEB0D00446877 /* Info.plist */,
@@ -130,7 +198,6 @@
 			isa = PBXGroup;
 			children = (
 				1C0941E9266FEB0D00446877 /* AppDelegate.swift */,
-				1C0941EB266FEB0D00446877 /* GameViewController.swift */,
 				1C0941ED266FEB0D00446877 /* Main.storyboard */,
 				1C0941F0266FEB0D00446877 /* LaunchScreen.storyboard */,
 				1C0941F3266FEB0D00446877 /* Info.plist */,
@@ -142,12 +209,70 @@
 			isa = PBXGroup;
 			children = (
 				1C0941FA266FEB0D00446877 /* AppDelegate.swift */,
-				1C0941FC266FEB0D00446877 /* GameViewController.swift */,
 				1C0941FE266FEB0D00446877 /* Main.storyboard */,
 				1C094201266FEB0D00446877 /* Info.plist */,
 				1C094202266FEB0D00446877 /* Artifact_Seeker_macOS.entitlements */,
 			);
 			path = "Artifact Seeker macOS";
+			sourceTree = "<group>";
+		};
+		1C094228266FEDA300446877 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C09422D266FEF6100446877 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				1C09425A266FF5D900446877 /* Level 1.json */,
+				1C09422E266FEF8800446877 /* Sets */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		1C09422E266FEF8800446877 /* Sets */ = {
+			isa = PBXGroup;
+			children = (
+				1C09425E266FF5F100446877 /* Blue.json */,
+				1C094230266FEF9C00446877 /* GlideColliderTiles */,
+				1C09422F266FEF9C00446877 /* GlideColliderTileSet.json */,
+			);
+			path = Sets;
+			sourceTree = "<group>";
+		};
+		1C094230266FEF9C00446877 /* GlideColliderTiles */ = {
+			isa = PBXGroup;
+			children = (
+				1C094231266FEF9C00446877 /* slope_11_8.png */,
+				1C094232266FEF9C00446877 /* slope_8_11.png */,
+				1C094233266FEF9C00446877 /* slope_8_15.png */,
+				1C094234266FEF9C00446877 /* jump_wall_right.png */,
+				1C094235266FEF9C00446877 /* slope_15_12.png */,
+				1C094236266FEF9C00446877 /* slope_15_8.png */,
+				1C094237266FEF9C00446877 /* jump_wall_left.png */,
+				1C094238266FEF9C00446877 /* slope_0_15.png */,
+				1C094239266FEF9C00446877 /* oneway.png */,
+				1C09423A266FEF9C00446877 /* slope_7_0.png */,
+				1C09423B266FEF9C00446877 /* ground.png */,
+				1C09423C266FEF9C00446877 /* slope_7_4.png */,
+				1C09423D266FEF9C00446877 /* slope_3_0.png */,
+				1C09423E266FEF9C00446877 /* slope_0_7.png */,
+				1C09423F266FEF9C00446877 /* slope_12_15.png */,
+				1C094240266FEF9C00446877 /* slope_4_7.png */,
+				1C094241266FEF9C00446877 /* slope_0_3.png */,
+				1C094242266FEF9C00446877 /* slope_15_0.png */,
+			);
+			path = GlideColliderTiles;
+			sourceTree = "<group>";
+		};
+		1C6F91B626718F17009ADF17 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				1C0942A82670037A00446877 /* CharacterEntity.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +291,9 @@
 			dependencies = (
 			);
 			name = "Artifact Seeker iOS";
+			packageProductDependencies = (
+				1C09421B266FEB6B00446877 /* GlideEngine */,
+			);
 			productName = "Artifact Seeker iOS";
 			productReference = 1C0941D5266FEB0D00446877 /* Artifact Seeker.app */;
 			productType = "com.apple.product-type.application";
@@ -183,6 +311,9 @@
 			dependencies = (
 			);
 			name = "Artifact Seeker tvOS";
+			packageProductDependencies = (
+				1C094229266FEDA300446877 /* GlideEngine */,
+			);
 			productName = "Artifact Seeker tvOS";
 			productReference = 1C0941E7266FEB0D00446877 /* Artifact Seeker.app */;
 			productType = "com.apple.product-type.application";
@@ -200,6 +331,9 @@
 			dependencies = (
 			);
 			name = "Artifact Seeker macOS";
+			packageProductDependencies = (
+				1C09422B266FEDAC00446877 /* GlideEngine */,
+			);
 			productName = "Artifact Seeker macOS";
 			productReference = 1C0941F8266FEB0D00446877 /* Artifact Seeker.app */;
 			productType = "com.apple.product-type.application";
@@ -233,6 +367,9 @@
 				Base,
 			);
 			mainGroup = 1C0941C7266FEB0A00446877;
+			packageReferences = (
+				1C09421A266FEB6B00446877 /* XCRemoteSwiftPackageReference "glide" */,
+			);
 			productRefGroup = 1C0941D6266FEB0D00446877 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -249,10 +386,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C09425F266FF5F100446877 /* Blue.json in Resources */,
+				1C094251266FEF9C00446877 /* slope_0_7.png in Resources */,
+				1C094249266FEF9C00446877 /* slope_15_8.png in Resources */,
+				1C0942A0266FFCE400446877 /* Decorations.atlas in Resources */,
+				1C094248266FEF9C00446877 /* slope_15_12.png in Resources */,
+				1C094243266FEF9C00446877 /* GlideColliderTileSet.json in Resources */,
+				1C09424A266FEF9C00446877 /* jump_wall_left.png in Resources */,
+				1C094252266FEF9C00446877 /* slope_12_15.png in Resources */,
 				1C094206266FEB0D00446877 /* GameScene.sks in Resources */,
+				1C09424E266FEF9C00446877 /* ground.png in Resources */,
+				1C094255266FEF9C00446877 /* slope_15_0.png in Resources */,
 				1C0941DE266FEB0D00446877 /* Main.storyboard in Resources */,
+				1C094257266FF21600446877 /* SharedAssets.xcassets in Resources */,
+				1C094250266FEF9C00446877 /* slope_3_0.png in Resources */,
+				1C094246266FEF9C00446877 /* slope_8_15.png in Resources */,
+				1C09424F266FEF9C00446877 /* slope_7_4.png in Resources */,
 				1C094203266FEB0D00446877 /* Actions.sks in Resources */,
+				1C09424D266FEF9C00446877 /* slope_7_0.png in Resources */,
+				1C09424C266FEF9C00446877 /* oneway.png in Resources */,
+				1C094245266FEF9C00446877 /* slope_8_11.png in Resources */,
+				1C094253266FEF9C00446877 /* slope_4_7.png in Resources */,
+				1C094247266FEF9C00446877 /* jump_wall_right.png in Resources */,
+				1C094244266FEF9C00446877 /* slope_11_8.png in Resources */,
+				1C09425B266FF5D900446877 /* Level 1.json in Resources */,
+				1C094254266FEF9C00446877 /* slope_0_3.png in Resources */,
 				1C0941E1266FEB0D00446877 /* LaunchScreen.storyboard in Resources */,
+				1C09424B266FEF9C00446877 /* slope_0_15.png in Resources */,
 				1C09420C266FEB0D00446877 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,9 +421,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C09425C266FF5D900446877 /* Level 1.json in Resources */,
+				1C094260266FF5F100446877 /* Blue.json in Resources */,
+				1C0942A1266FFCE400446877 /* Decorations.atlas in Resources */,
 				1C094207266FEB0D00446877 /* GameScene.sks in Resources */,
 				1C0941EF266FEB0D00446877 /* Main.storyboard in Resources */,
 				1C094204266FEB0D00446877 /* Actions.sks in Resources */,
+				1C094258266FF21600446877 /* SharedAssets.xcassets in Resources */,
 				1C0941F2266FEB0D00446877 /* LaunchScreen.storyboard in Resources */,
 				1C09420D266FEB0D00446877 /* Assets.xcassets in Resources */,
 			);
@@ -273,10 +437,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C0942A7266FFE9500446877 /* GlideColliderTileSet.json in Resources */,
+				1C094261266FF5F100446877 /* Blue.json in Resources */,
+				1C094259266FF21600446877 /* SharedAssets.xcassets in Resources */,
+				1C09425D266FF5D900446877 /* Level 1.json in Resources */,
 				1C094200266FEB0D00446877 /* Main.storyboard in Resources */,
 				1C094208266FEB0D00446877 /* GameScene.sks in Resources */,
 				1C09420E266FEB0D00446877 /* Assets.xcassets in Resources */,
 				1C094205266FEB0D00446877 /* Actions.sks in Resources */,
+				1C0942A2266FFCE400446877 /* Decorations.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,8 +456,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C094209266FEB0D00446877 /* GameScene.swift in Sources */,
-				1C0941DB266FEB0D00446877 /* GameViewController.swift in Sources */,
+				1C0942A4266FFD9C00446877 /* GameViewController.swift in Sources */,
+				1C094263266FF6EB00446877 /* Scene.swift in Sources */,
+				1C0942A92670037A00446877 /* CharacterEntity.swift in Sources */,
 				1C0941D9266FEB0D00446877 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,8 +467,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C09420A266FEB0D00446877 /* GameScene.swift in Sources */,
-				1C0941EC266FEB0D00446877 /* GameViewController.swift in Sources */,
+				1C0942A5266FFD9C00446877 /* GameViewController.swift in Sources */,
+				1C094264266FF6EB00446877 /* Scene.swift in Sources */,
+				1C0942AA2670037A00446877 /* CharacterEntity.swift in Sources */,
 				1C0941EA266FEB0D00446877 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,8 +478,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C09420B266FEB0D00446877 /* GameScene.swift in Sources */,
-				1C0941FD266FEB0D00446877 /* GameViewController.swift in Sources */,
+				1C0942A6266FFD9C00446877 /* GameViewController.swift in Sources */,
+				1C094265266FF6EB00446877 /* Scene.swift in Sources */,
+				1C0942AB2670037A00446877 /* CharacterEntity.swift in Sources */,
 				1C0941FB266FEB0D00446877 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -642,6 +814,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1C09421A266FEB6B00446877 /* XCRemoteSwiftPackageReference "glide" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cocoatoucher/glide";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1C09421B266FEB6B00446877 /* GlideEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1C09421A266FEB6B00446877 /* XCRemoteSwiftPackageReference "glide" */;
+			productName = GlideEngine;
+		};
+		1C094229266FEDA300446877 /* GlideEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1C09421A266FEB6B00446877 /* XCRemoteSwiftPackageReference "glide" */;
+			productName = GlideEngine;
+		};
+		1C09422B266FEDAC00446877 /* GlideEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1C09421A266FEB6B00446877 /* XCRemoteSwiftPackageReference "glide" */;
+			productName = GlideEngine;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1C0941C8266FEB0A00446877 /* Project object */;
 }
