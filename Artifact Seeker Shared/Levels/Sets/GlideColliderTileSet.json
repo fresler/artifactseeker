@@ -14,131 +14,131 @@
  "tiles":[
         {
          "id":0,
-         "image":"GlideColliderTiles/ground.png",
+         "image":"..\/..\/Assets.xcassets\/Collider.spriteatlas\/ground.imageset\/ground.png",
          "imageheight":16,
          "imagewidth":16,
          "type":"ground"
         }, 
         {
          "id":1,
-         "image":"GlideColliderTiles/jump_wall_left.png",
+         "image":"..\/..\/Assets.xcassets\/Collider.spriteatlas\/jump_wall_left.imageset\/jump_wall_left.png",
          "imageheight":16,
          "imagewidth":16,
          "type":"jump_wall_left"
         }, 
         {
          "id":2,
-         "image":"GlideColliderTiles/jump_wall_right.png",
+         "image":"..\/..\/Assets.xcassets\/Collider.spriteatlas\/jump_wall_right.imageset\/jump_wall_right.png",
          "imageheight":16,
          "imagewidth":16,
          "type":"jump_wall_right"
         }, 
         {
          "id":3,
-         "image":"GlideColliderTiles/oneway.png",
+         "image":"..\/..\/Assets.xcassets\/Collider.spriteatlas\/oneway.imageset\/oneway.png",
          "imageheight":16,
          "imagewidth":16,
          "type":"one_way"
         }, 
         {
          "id":13,
-         "image":"GlideColliderTiles/slope_0_3.png",
+         "image":"..\/..\/Assets.xcassets\/Collider.spriteatlas\/slope_0_3.imageset\/slope_0_3.png",
          "imageheight":16,
          "imagewidth":16,
          "type":"slope_0_3"
         }, 
         {
          "id":14,
-         "image":"GlideColliderTiles/slope_4_7.png",
+         "image":"..\/..\/Assets.xcassets\/Collider.spriteatlas\/slope_4_7.imageset\/slope_4_7.png",
          "imageheight":16,
          "imagewidth":16,
          "type":"slope_4_7"
         }, 
         {
          "id":15,
-         "image":"GlideColliderTiles/slope_8_11.png",
+         "image":"..\/..\/Assets.xcassets\/Collider.spriteatlas\/slope_8_11.imageset\/slope_8_11.png",
          "imageheight":16,
          "imagewidth":16,
          "type":"slope_8_11"
         }, 
         {
          "id":16,
-         "image":"GlideColliderTiles/slope_12_15.png",
+         "image":"..\/..\/Assets.xcassets\/Collider.spriteatlas\/slope_12_15.imageset\/slope_12_15.png",
          "imageheight":16,
          "imagewidth":16,
          "type":"slope_12_15"
         }, 
         {
          "id":17,
-         "image":"GlideColliderTiles/slope_0_7.png",
+         "image":"..\/..\/Assets.xcassets\/Collider.spriteatlas\/slope_0_7.imageset\/slope_0_7.png",
          "imageheight":16,
          "imagewidth":16,
          "type":"slope_0_7"
         }, 
         {
          "id":18,
-         "image":"GlideColliderTiles/slope_8_15.png",
+         "image":"..\/..\/Assets.xcassets\/Collider.spriteatlas\/slope_8_15.imageset\/slope_8_15.png",
          "imageheight":16,
          "imagewidth":16,
          "type":"slope_8_15"
         }, 
         {
          "id":19,
-         "image":"GlideColliderTiles/slope_0_15.png",
+         "image":"..\/..\/Assets.xcassets\/Collider.spriteatlas\/slope_0_15.imageset\/slope_0_15.png",
          "imageheight":16,
          "imagewidth":16,
          "type":"slope_0_15"
         }, 
         {
          "id":20,
-         "image":"GlideColliderTiles/slope_15_0.png",
+         "image":"..\/..\/Assets.xcassets\/Collider.spriteatlas\/slope_15_0.imageset\/slope_15_0.png",
          "imageheight":16,
          "imagewidth":16,
          "type":"slope_15_0"
         }, 
         {
          "id":21,
-         "image":"GlideColliderTiles/slope_15_12.png",
+         "image":"..\/..\/Assets.xcassets\/Collider.spriteatlas\/slope_15_12.imageset\/slope_15_12.png",
          "imageheight":16,
          "imagewidth":16,
          "type":"slope_15_12"
         }, 
         {
          "id":22,
-         "image":"GlideColliderTiles/slope_11_8.png",
+         "image":"..\/..\/Assets.xcassets\/Collider.spriteatlas\/slope_11_8.imageset\/slope_11_8.png",
          "imageheight":16,
          "imagewidth":16,
          "type":"slope_11_8"
         }, 
         {
          "id":23,
-         "image":"GlideColliderTiles/slope_7_4.png",
+         "image":"..\/..\/Assets.xcassets\/Collider.spriteatlas\/slope_7_4.imageset\/slope_7_4.png",
          "imageheight":16,
          "imagewidth":16,
          "type":"slope_7_4"
         }, 
         {
          "id":24,
-         "image":"GlideColliderTiles/slope_3_0.png",
+         "image":"..\/..\/Assets.xcassets\/Collider.spriteatlas\/slope_3_0.imageset\/slope_3_0.png",
          "imageheight":16,
          "imagewidth":16,
          "type":"slope_3_0"
         }, 
         {
          "id":25,
-         "image":"GlideColliderTiles/slope_15_8.png",
+         "image":"..\/..\/Assets.xcassets\/Collider.spriteatlas\/slope_15_8.imageset\/slope_15_8.png",
          "imageheight":16,
          "imagewidth":16,
          "type":"slope_15_8"
         }, 
         {
          "id":26,
-         "image":"GlideColliderTiles/slope_7_0.png",
+         "image":"..\/..\/Assets.xcassets\/Collider.spriteatlas\/slope_7_0.imageset\/slope_7_0.png",
          "imageheight":16,
          "imagewidth":16,
          "type":"slope_7_0"
         }],
  "tilewidth":16,
  "type":"tileset",
- "version":1.2
+ "version":1.4
 }
