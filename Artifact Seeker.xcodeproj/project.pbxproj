@@ -39,6 +39,9 @@
 		1C0942A92670037A00446877 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0942A82670037A00446877 /* Character.swift */; };
 		1C0942AA2670037A00446877 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0942A82670037A00446877 /* Character.swift */; };
 		1C0942AB2670037A00446877 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0942A82670037A00446877 /* Character.swift */; };
+		1C2569DE267D0125006DC0C3 /* Ladders.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C2569DD267D0125006DC0C3 /* Ladders.json */; };
+		1C2569DF267D0125006DC0C3 /* Ladders.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C2569DD267D0125006DC0C3 /* Ladders.json */; };
+		1C2569E0267D0125006DC0C3 /* Ladders.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C2569DD267D0125006DC0C3 /* Ladders.json */; };
 		4E969FF1267B553800964F6B /* Blue.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E969FEE267B553800964F6B /* Blue.json */; };
 		4E969FF2267B553800964F6B /* Blue.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E969FEE267B553800964F6B /* Blue.json */; };
 		4E969FF3267B553800964F6B /* Blue.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E969FEE267B553800964F6B /* Blue.json */; };
@@ -73,6 +76,7 @@
 		1C094262266FF6EB00446877 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 		1C0942A3266FFD9C00446877 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1C0942A82670037A00446877 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		1C2569DD267D0125006DC0C3 /* Ladders.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Ladders.json; sourceTree = "<group>"; };
 		4E969FEE267B553800964F6B /* Blue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Blue.json; sourceTree = "<group>"; };
 		4E969FEF267B553800964F6B /* GlideColliderTileSet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GlideColliderTileSet.json; sourceTree = "<group>"; };
 		4E969FF0267B553800964F6B /* Level 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level 1.json"; sourceTree = "<group>"; };
@@ -197,6 +201,7 @@
 			children = (
 				4E969FEE267B553800964F6B /* Blue.json */,
 				4E969FEF267B553800964F6B /* GlideColliderTileSet.json */,
+				1C2569DD267D0125006DC0C3 /* Ladders.json */,
 			);
 			path = Sets;
 			sourceTree = "<group>";
@@ -317,6 +322,7 @@
 				1C094206266FEB0D00446877 /* GameScene.sks in Resources */,
 				1C0941DE266FEB0D00446877 /* Main.storyboard in Resources */,
 				1C094203266FEB0D00446877 /* Actions.sks in Resources */,
+				1C2569DE267D0125006DC0C3 /* Ladders.json in Resources */,
 				1C0941E1266FEB0D00446877 /* LaunchScreen.storyboard in Resources */,
 				4E969FF4267B553800964F6B /* GlideColliderTileSet.json in Resources */,
 				1C09420C266FEB0D00446877 /* Assets.xcassets in Resources */,
@@ -332,6 +338,7 @@
 				1C094207266FEB0D00446877 /* GameScene.sks in Resources */,
 				1C0941EF266FEB0D00446877 /* Main.storyboard in Resources */,
 				1C094204266FEB0D00446877 /* Actions.sks in Resources */,
+				1C2569DF267D0125006DC0C3 /* Ladders.json in Resources */,
 				1C0941F2266FEB0D00446877 /* LaunchScreen.storyboard in Resources */,
 				4E969FF5267B553800964F6B /* GlideColliderTileSet.json in Resources */,
 				1C09420D266FEB0D00446877 /* Assets.xcassets in Resources */,
@@ -345,6 +352,7 @@
 				1C094200266FEB0D00446877 /* Main.storyboard in Resources */,
 				4E969FF6267B553800964F6B /* GlideColliderTileSet.json in Resources */,
 				1C094208266FEB0D00446877 /* GameScene.sks in Resources */,
+				1C2569E0267D0125006DC0C3 /* Ladders.json in Resources */,
 				4E969FF3267B553800964F6B /* Blue.json in Resources */,
 				4E969FF9267B553800964F6B /* Level 1.json in Resources */,
 				1C09420E266FEB0D00446877 /* Assets.xcassets in Resources */,
