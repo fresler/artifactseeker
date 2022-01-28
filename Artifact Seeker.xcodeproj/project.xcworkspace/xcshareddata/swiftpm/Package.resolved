@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "GlideEngine",
+        "repositoryURL": "https://github.com/cocoatoucher/glide",
+        "state": {
+          "branch": null,
+          "revision": "a39b3d8623cf50cfe371c57f75fa86ac41d3fff4",
+          "version": "1.1.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

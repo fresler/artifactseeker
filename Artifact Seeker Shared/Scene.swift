@@ -18,6 +18,8 @@ class Scene:GlideScene {
             zPositionContainers: []
         )
         shouldPauseWhenAppIsInBackground = false
+        // Remove comment for debugging collision tile map node.
+        //isDebuggingCollisionTileMapNode = true
     }
     
     override func setupScene() {

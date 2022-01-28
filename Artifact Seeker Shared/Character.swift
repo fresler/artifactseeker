@@ -7,28 +7,34 @@
 
 import GlideEngine
 import SpriteKit
+import GameplayKit
 
 class CharacterEntity: GlideEntity {
     
     override func setup() {
         
         let spriteNodeComponent = SpriteNodeComponent(nodeSize: CGSize(width: 64, height: 64))
-        spriteNodeComponent.spriteNode.texture = SKTexture(imageNamed: "idle0")
+        spriteNodeComponent.offset = .init(x: 0, y: 5)
         spriteNodeComponent.zPositionContainer = ArtifactSeekerZPositionContainer.player
         addComponent(spriteNodeComponent)
+        
+        let playerComponent = SimplePlayerComponent()
+        addComponent(playerComponent)
         
         let kinematicsBodyComponent = KinematicsBodyComponent()
         addComponent(kinematicsBodyComponent)
         
-        let colliderComponent = ColliderComponent(categoryMask: GlideCategoryMask.none,
-                                                  size: CGSize(width: 24, height: 24),
-                                                  offset: .zero,
-                                                  leftHitPointsOffsets: (10, 10),
-                                                  rightHitPointsOffsets: (10, 10),
-                                                  topHitPointsOffsets: (5, 5),
-                                                  bottomHitPointsOffsets: (5, 5))
+        let colliderComponent = ColliderComponent(
+            categoryMask: GlideCategoryMask.none,
+            size: CGSize(width: 24, height: 48),
+            offset: .zero,
+            leftHitPointsOffsets: (10, 10),
+            rightHitPointsOffsets: (10, 10),
+            topHitPointsOffsets: (5, 5),
+            bottomHitPointsOffsets: (5, 5)
+        )
         addComponent(colliderComponent)
-        setupTextureAnimations()
+        
         let colliderTileHolderComponent = ColliderTileHolderComponent()
         addComponent(colliderTileHolderComponent)
         
@@ -49,12 +55,16 @@ class CharacterEntity: GlideEntity {
         jumpConfiguration.jumpingVelocity = 20.0
         let jumpComponent = JumpComponent(configuration: jumpConfiguration)
         addComponent(jumpComponent)
+
+
+
+        setupTextureAnimations()
     }
     
     func setupTextureAnimations() {
         let timePerFrame: TimeInterval = 0.15
         let animationSize = CGSize(width: 64, height: 64)
-        let animationOffset = CGPoint(x: 0, y: 15)
+        let animationOffset = CGPoint(x: 0, y: 0)
         
         // Idle animation
         let idleAction = TextureAnimation.Action(textureFormat: "idle%d",
@@ -89,9 +99,36 @@ class CharacterEntity: GlideEntity {
         let jumpAnimation = TextureAnimation(triggerName: "Jump",
                                              offset: animationOffset,
                                              size: animationSize,
-                                             action: walkAction,
+                                             action: jumpAction,
                                              loops: true)
         animatorComponent.addAnimation(jumpAnimation)
         addComponent(animatorComponent)
+    }
+}
+
+class SimplePlayerComponent: GKComponent, GlideComponent {
+    
+    func didUpdate(deltaTime seconds: TimeInterval) {
+        let textureAnimatorComponent = entity?.component(ofType: TextureAnimatorComponent.self)
+        
+        let collider = entity?.component(ofType: ColliderComponent.self)
+        let jumpComponent = entity?.component(ofType: JumpComponent.self)
+        let horizontalMovementComponent = entity?.component(ofType: HorizontalMovementComponent.self)
+        
+        if collider?.isOnAir == false &&
+            horizontalMovementComponent?.movementDirection == .stationary &&
+            jumpComponent?.jumps == false {
+            textureAnimatorComponent?.enableAnimation(with: "Idle")
+        }
+        
+        if collider?.isOnAir == false &&
+            horizontalMovementComponent?.movementDirection != .stationary &&
+            jumpComponent?.jumps == false {
+            textureAnimatorComponent?.enableAnimation(with: "Walk")
+        }
+        
+        if jumpComponent?.jumps == true {
+            textureAnimatorComponent?.enableAnimation(with: "Jump")
+        }
     }
 }

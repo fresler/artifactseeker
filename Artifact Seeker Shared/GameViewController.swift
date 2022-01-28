@@ -8,11 +8,6 @@
 import GlideEngine
 import SpriteKit
 
-enum ArtifactSeekerZPositionContainer: String, ZPositionContainer, CaseIterable {
-    case background
-    case player
-}
-
 class GameViewController: ViewControllerType {
     
     override func viewDidLoad() {
@@ -47,42 +42,5 @@ class GameViewController: ViewControllerType {
                 (self.view as? SKView)?.presentScene(scene)
             }
         }
-    }
-}
-
-
-class BaseLevelScene: GlideScene {
-    
-    let tileMaps: SceneTileMaps
-    
-    init(tileMaps: SceneTileMaps) {
-        self.tileMaps = tileMaps
-        super.init(
-            collisionTileMapNode: tileMaps.collisionTileMap,
-            zPositionContainers: ArtifactSeekerZPositionContainer.allCases
-        )
-        
-        shouldPauseWhenAppIsInBackground = false
-    }
-    
-    override func setupScene() {
-        super.setupScene()
-        
-        ColliderComponent.isDebugEnabled = true
-        
-        cameraEntity.component(ofType: CameraComponent.self)?.configuration.fieldOfViewWidth = 5000
-        
-        let groundBackground = tileMaps.decorationTileMaps[0]
-        groundBackground.position = collisionTileMapNode?.position ?? .zero
-        addChild(
-            groundBackground,
-            in: ArtifactSeekerZPositionContainer.background
-        )
-        
-        let characterEntity = CharacterEntity(
-            initialNodePosition:
-                TiledPoint(8, 7).point(with: .init(width: 16, height: 16))
-        )
-        addEntity(characterEntity)
     }
 }
